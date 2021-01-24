@@ -1,8 +1,8 @@
-function adduser() {
+function addUser() {
     player1name=document.getElementById("player1_name").value;
     player2name=document.getElementById("player2_name").value;
     localStorage.setItem("player1namekey",player1name);
     localStorage.setItem("player2namekey",player2name);
-    window.location="quiz_page.html";
+    window.location="quiz_game_page.html";
     
 }
